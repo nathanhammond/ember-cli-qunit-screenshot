@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-qunit",
+  "name": "ember-cli-qunit-screenshot",
   "version": "0.0.1",
   "description": "Automated screenshots for QUnit ember-cli applications",
   "main": "index.js",
