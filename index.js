@@ -9,8 +9,9 @@ module.exports = {
   init: function() {},
 
   contentFor: function(type) {
-    if (type === 'test-body') {
-      return this._readTemplate('test-body');
+    var allowed = ["test-body", "test-head-footer"];
+    if (~allowed.indexOf(type)) {
+      return this._readTemplate(type);
     }
   },
 
