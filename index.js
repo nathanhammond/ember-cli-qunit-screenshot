@@ -19,7 +19,7 @@ module.exports = {
   },
 
   contentFor: function(type) {
-    var allowed = ["test-body", "test-head-footer"];
+    var allowed = ["test-body-footer", "test-head-footer"];
     if (~allowed.indexOf(type)) {
       return this._readTemplate(type);
     }
