@@ -8,6 +8,16 @@ module.exports = {
 
   init: function() {},
 
+  included: function included(app) {
+    this._super.included(app);
+
+    if (app.tests) {
+      app.import('takeScreenshot.js', {
+        type: 'test'
+      });
+    }
+  },
+
   contentFor: function(type) {
     var allowed = ["test-body", "test-head-footer"];
     if (~allowed.indexOf(type)) {
