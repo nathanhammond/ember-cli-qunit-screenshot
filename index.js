@@ -12,9 +12,9 @@ module.exports = {
     this._super.included(app);
 
     if (app.tests) {
-      // app.import('', {
-      //   type: 'test'
-      // });
+      app.import(app.bowerDirectory + '/screenshot-client/screenshot-client.js', {
+        type: 'test'
+      });
     }
   },
 

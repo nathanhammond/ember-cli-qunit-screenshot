@@ -1,3 +1,4 @@
 <script type="text/javascript">
   document.getElementById('qunit').style.display = 'none';
+  Ember.run.backburner.options.render = { after: takeScreenshot };
 </script>
