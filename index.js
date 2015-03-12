@@ -12,9 +12,9 @@ module.exports = {
     this._super.included(app);
 
     if (app.tests) {
-      app.import('takeScreenshot.js', {
-        type: 'test'
-      });
+      // app.import('', {
+      //   type: 'test'
+      // });
     }
   },
 

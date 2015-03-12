@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-qunit-screenshot",
   "version": "0.0.1",
-  "description": "Automated screenshots for QUnit ember-cli applications",
+  "description": "Automated screenshots for QUnit ember-cli applications.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,16 +17,15 @@
     "ember-addon",
     "ember",
     "qunit",
-    "screenshot"
+    "screenshot",
+    "selenium",
+    "webdriver",
+    "takeScreenshot"
   ],
-  "author": {
-    "name": "Nathan Hammond",
-    "email": "nathan@nathanhammond.com"
-  },
+  "author": "Nathan Hammond",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nathanhammond/ember-cli-qunit-screenshot/issues"
   },
-  "homepage": "https://github.com/nathanhammond/ember-cli-qunit-screenshot",
-  "bundleDependencies": []
+  "homepage": "https://github.com/nathanhammond/ember-cli-qunit-screenshot"
 }
