@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-qunit-screenshot",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Automated screenshots for QUnit ember-cli applications.",
   "main": "index.js",
   "scripts": {

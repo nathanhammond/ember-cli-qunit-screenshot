@@ -9,7 +9,7 @@ module.exports = {
     return this.addPackagesToProject([
       { name: 'screenshot-server', target: '0.0.x' }
     ]).then(function() {
-      this.addBowerPackagesToProject([
+      return this.addBowerPackagesToProject([
         { name: 'screenshot-client', target: '0.0.x' }
       ]);
     }.bind(this));
