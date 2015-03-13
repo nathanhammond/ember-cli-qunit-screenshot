@@ -6,8 +6,14 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return this.addBowerPackagesToProject([
+    var npm = this.addPackagesToProject([
+      { name: 'screenshot-server' }
+    ]);
+
+    var bower = this.addBowerPackagesToProject([
       { name: 'screenshot-client' }
     ]);
+
+    return npm && bower;
   }
 };
