@@ -7,11 +7,11 @@ module.exports = {
 
   afterInstall: function() {
     var npm = this.addPackagesToProject([
-      { name: 'screenshot-server' }
+      { name: 'screenshot-server', target: '0.0.x' }
     ]);
 
     var bower = this.addBowerPackagesToProject([
-      { name: 'screenshot-client' }
+      { name: 'screenshot-client', target: '0.0.x' }
     ]);
 
     return npm && bower;
