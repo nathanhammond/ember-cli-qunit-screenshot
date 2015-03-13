@@ -11,7 +11,7 @@ module.exports = {
     ]);
 
     var bower = this.addBowerPackagesToProject([
-      { name: 'screenshot-client', target: '0.0.2' }
+      { name: 'screenshot-client', target: '0.0.x' }
     ]);
 
     return npm && bower;
